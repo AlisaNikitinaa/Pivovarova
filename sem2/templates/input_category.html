@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input_category</title>
+    <link href="{{url_for('static', filename='sem2.css')}}" rel="stylesheet" type="text/css">
+</head>
+<body>
+{% if error_message %}
+  <p class="center" role="alert">{{ error_message }}</p>
+{% endif %}
+
+  <h2 class="center">Ввод параметров запроса</h2>
+    <form class=center-form action="" method="post">
+    <!--верни управление тому обработчику, который создал форму -->
+    <label for="prod_category">Категория продуктов</label>
+    <input type="text" name="prod_category" id="prod_category">
+    <br><br>
+
+   <input  type="submit" value="Отправить">
+    </form>
+</body>
+</html>

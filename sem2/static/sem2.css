@@ -1,0 +1,21 @@
+h2 {color: blue;
+    font-size : 14pt}
+
+tr {color: green}
+
+tr.tab_title {font-weight : bold;
+              color       : red}
+.center  {text-align: center;}
+
+ table {
+    width: 40vw; /* Ширина таблицы  в % (Viewport Width*/
+    margin: 0 auto; /* Автоматические отступы по бокам */
+  }
+
+
+  .center-form {
+  display: flex;
+  flex-direction: column; /* элементы идут друг под другом */
+  align-items: center;    /* выравнивание по центру по горизонтали */
+  gap: 10px;              /* отступ между полями */
+}
